@@ -1,6 +1,7 @@
-// debug
+
 
 const wireCount = 5;
+
 const targetCount = wireCount;
 
 const wires = [];
@@ -127,7 +128,7 @@ function drop(ev) {
 function checkSuccess() {
     const connectedWires = wires.filter(wire => wire.draggable === false);
     if (connectedWires.length === wireCount) {
-        document.getElementById("status").innerHTML = "<span id='correct'>모든 전선이 성공적으로 연결되었습니다! 시스템이 복구되었습니다.</span>";
+        document.getElementById("status").innerHTML = "<span id='correct'>모든 전선이 성공적으로 연결되었습니다! 시스템이 복구되었습니다. 인증코드 : HelloWo2ld</span>";
     }
 }
 
