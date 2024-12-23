@@ -1,3 +1,5 @@
+#debug
+
 const wireCount = 5;
 const targetCount = wireCount;
 
